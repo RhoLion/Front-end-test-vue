@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+    .btn {
+        @apply font-bold py-2 px-4 rounded;
+    }
+
+    .btn-green {
+        @apply bg-primary text-white;
+    }
+    .btn-green:hover {
+        @apply bg-primaryVariant-300;
+    }
+
+.card {
+    background-color: theme('colors.white');
+    border-radius: theme('borderRadius.lg');
+    padding: theme('spacing.6');
+    box-shadow: theme('boxShadow.xl');
+    height: theme('h-64');
+    width: theme('w-80');
+}
+
