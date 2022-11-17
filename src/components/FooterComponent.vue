@@ -66,6 +66,11 @@ export default {}
   border-bottom: 1px solid #c8c7c7
 }
 
+.leftImages{
+  display:flex;
+  flex-direction: row;
+}
+
 .leftImages img {
   width: 25px;
   height: 20px;

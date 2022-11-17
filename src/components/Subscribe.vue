@@ -26,8 +26,7 @@ export default {}
 }
 
 .subscribe div {
-  width: 60px;
-  height: 50px;
+  width: 80px;
   padding: 20px;
   background-color: white;
   border-radius: 50%;
@@ -37,6 +36,7 @@ export default {}
 
 .subscribe h2 {
   margin-top: 20px;
+  margin-left:-50px;
   font-size: 36px;
 }
 

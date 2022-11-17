@@ -74,17 +74,14 @@ export default {
   justify-content: space-between;
   padding: 50px;
   margin: 0 30px 0 30px;
+  font-weight: bold;
 }
 
 .cardSectionCont {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-content: center;
-  width: 400px;
-  height: 425px;
-  gap: 70px;
-  margin: 0px 100px 50px 20px;
+  justify-content: space-evenly;
+  margin: 0px 20px 20px 20px;
   cursor: pointer;
 }
 
@@ -93,6 +90,7 @@ export default {
   box-shadow: 0 40px 40px rgb(226, 226, 226);
   border-radius: 12px;
   cursor: pointer;
+  width:300px;
 }
 
 .thumbNail {
